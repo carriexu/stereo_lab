@@ -22,7 +22,7 @@ describe(Vinyl) do
     pet_sounds = Vinyl.new('Beach Boys','Pet Sounds', 33)
     expect(pet_sounds.play).to eq("♩♪♫♪ ::'Beach Boys - Pet Sounds' (Side A) plays:: ♪♫♪♩")
   end
-  
+
   it('can be flipped') do
     pet_sounds = Vinyl.new('Beach Boys','Pet Sounds', 33)
     expect(pet_sounds.flip.play).to eq("♩♪♫♪ ::'Beach Boys - Pet Sounds' (Side B) plays:: ♪♫♪♩")
