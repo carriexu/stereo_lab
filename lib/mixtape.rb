@@ -1,0 +1,6 @@
+
+class Mixtape < Cassette
+
+
+
+end
